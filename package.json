@@ -1,0 +1,63 @@
+{
+  "name": "hansroslinger",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1640029074",
+    "@mediapipe/control_utils": "^0.6.1629159505",
+    "@mediapipe/drawing_utils": "^0.3.1620248257",
+    "@mediapipe/hands": "^0.3.1632795355",
+    "@mediapipe/selfie_segmentation": "^0.1.1632777926",
+    "@react-three/fiber": "^7.0.14",
+    "@tensorflow-models/handpose": "0.0.7",
+    "@tensorflow/tfjs": "^3.9.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.1.3",
+    "d3": "^7.1.1",
+    "dynamic-time-warping": "^1.0.0",
+    "fingerpose": "^0.1.0",
+    "firebase": "^9.3.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^2.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-webcam": "^6.0.0",
+    "stardust-core": "^0.2.4",
+    "stardust-webgl": "^0.2.4",
+    "three": "^0.133.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "volta": {
+    "node": "14.18.1"
+  }
+}
